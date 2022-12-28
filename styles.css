@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
+  }
+  
+  body {
+    background-color: black;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Raleway';
+    color: black;
+  }
+  .nav-wrapper {
+    background-image: linear-gradient(90deg, #2e2e2e, #6bebff);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-left: 24px;
+  }
+  .nav-wrapper a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav-wrapper a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nav-wrapper a.active {
+    background-color: #ddd;
+    color: #2e2e2e;
+  }
+  a {
+    color: #2e2e2e;
+  }
+  .navbar {
+    margin-bottom: 20px;
+  }
+
+  .default {
+    background-color: #2e2e2e;
+    opacity: 0.89;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: white;
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+
+  .iframe2 {
+    border: 0px;
+    width: 620px;
+    height: 330px;
+    margin-bottom: 40px;
+  }
+
+  .iframe3 {
+    border: 0px;
+    width: 386px;
+    height: 230px;
+    margin-bottom: 40px;
+  }
+
+  header {
+    font-family: Arial;
+  }
+  .page-footer {
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg, #2e2e2e, #6bebff);
+    color: #ddd;
+    padding: 0px;
+    height: 70px;
+  }
+
+  .aug-nav-wrapper {
+    background-color: #347986;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-left: 25px;
+    height: 50px !important;
+  }
+  .aug-nav-wrapper a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .aug-nav-wrapper a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .aug-nav-wrapper a.active {
+    background-color: #ddd;
+    color: #2e2e2e;
+  }
+
+  .aug-navbar {
+    margin-bottom: 0px;
+    background-color: #347986;
+    height: 50px;
+    padding-bottom: 20px;
+    line-height: 52px;
+  }
+
+  .aug-navbar ul li a{
+    height: 50px !important;
+  }
+
+  .heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .default .row .s6 {
+    padding-left: 5px !important;
+  }
+
+  .default .row .s4 {
+    padding-left: 5px !important;
+  }
+  

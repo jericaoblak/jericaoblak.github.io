@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" type="image/png" href="../icon.png"/>
+    <meta name="description" content="Hello World">
+    <meta name="author" content="Ursula Parker">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Augmentation Matrix</title>
+  </head>
+
+<body>
+    <header>
+      <h1 style="margin-top: 45px; margin-bottom: 20px;"><a href="../index.html" style="color: #5fd6e8; font-size: 80px !important;">Jerica Oblak</a></h1>
+    </header>
+  
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a id="musicVideo" class="active" href="../AugmentationMatrix/AMintro.html">Augmentation Matrix</a></li>
+          <li><a id="musicVideo" href="../musicVideos.html">Music & Video Examples</a></li>
+          <li><a id="about" href="../about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END OF BOILERPLATE -->
+
+    <!-- matrix stuff -->
+    <h1 class="default" style="margin-bottom: 0px !important; padding-top: 18px !important;">The Augmentation Matrix</h1>
+    <nav class="aug-navbar">
+      <div class="aug-nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down" style="padding-bottom: 20px;">
+          <li><a id="intro" href="AMintro.html">Introduction</a></li>
+          <li><a id="harmonic-series" class="active" href="AMharmonic.html">Harmonic Series</a></li>
+          <li><a id="augmentaitons" href="AMaugmentations.html">Augmentations</a></li>
+          <li><a id="tables" href="AMtables.html">Tables</a></li>
+          <li><a id="analysis" href="AManalysis.html">Analysis</a></li>
+          <li><a id="article" href="AMarticle.html">Article</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="default">
+      <h4 class="heading">The Exponential and Recursive Structure of the Harmonic Series</h4>
+      <p>
+        Since the harmonic series consists of frequencies ascending through the integral multiples of the fundamental, there is a clear relationship between the fundamental and its upper partials. If f1 indicates the frequency of the fundamental, then the frequencies of its overtones equal 2f1, 3f1, 4f1, 5f1, etc. If any of these frequencies are substituted by n, therefore 2f1 = n, 3f1 = n, 4f1 = n, or 5f1 = n, etc., it follows that each order of n, 2n, 3n, 4n, 5n, etc. creates a transposition of a given series within the series itself. It means that each harmonic of the harmonic series is a fundamental of a new harmonic series found in the given series through the multiples of n (where n indicates the frequency value of the harmonic or the position of the harmonic in the given series). It also follows that the order of the octaves in the harmonic series is determined by powers of 2 and if n again indicates the frequency value of the harmonic or its position in the series, then its octave repetitions equal 2n, 22n, 23n, 24n, 25n, etc.
+      </p>
+      <img src="../harmonicSeries.jpg" alt="Harmonic Series">
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+          <p style="text-align: center; color:gray;">
+            © 2023 Jerica Oblak
+          </p>
+        </div>
+    </footer>
+      
+</body>
+      
+</html>
